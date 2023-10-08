@@ -8,6 +8,7 @@
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
+                "-pedantic-errors",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
