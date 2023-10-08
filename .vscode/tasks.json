@@ -9,6 +9,7 @@
                 "-fansi-escape-codes",
                 "-g",
                 "-pedantic-errors",
+                "-Werror",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
